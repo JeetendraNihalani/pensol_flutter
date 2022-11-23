@@ -1,0 +1,53 @@
+
+
+import 'package:flex_color_scheme/flex_color_scheme.dart';
+import 'package:flutter/material.dart';
+
+ThemeData lightTheme =  FlexThemeData.light(
+  scheme: FlexScheme.shark,
+  surfaceMode: FlexSurfaceMode.highScaffoldLowSurface,
+  blendLevel: 3,
+  appBarElevation: 5.0,
+  tabBarStyle: FlexTabBarStyle.universal,
+  subThemesData: const FlexSubThemesData(
+    blendOnLevel: 8,
+    defaultRadius: 8.0,
+    bottomSheetRadius: 8.0,
+    toggleButtonsSchemeColor: SchemeColor.secondary,
+    unselectedToggleIsColored: true,
+    inputDecoratorRadius: 8.0,
+    inputDecoratorUnfocusedHasBorder: false,
+    chipSchemeColor: SchemeColor.primary,
+    chipRadius: 8.0,
+    popupMenuOpacity: 0.90,
+    dialogRadius: 8.0,
+    timePickerDialogRadius: 8.0,
+    tabBarItemSchemeColor: SchemeColor.secondary,
+    tabBarIndicatorSchemeColor: SchemeColor.secondary,
+    bottomNavigationBarSelectedLabelSchemeColor: SchemeColor.secondary,
+    bottomNavigationBarUnselectedLabelSchemeColor: SchemeColor.primaryContainer,
+    bottomNavigationBarSelectedIconSchemeColor: SchemeColor.secondary,
+    bottomNavigationBarUnselectedIconSchemeColor: SchemeColor.primaryContainer,
+    bottomNavigationBarBackgroundSchemeColor: SchemeColor.primary,
+    bottomNavigationBarShowUnselectedLabels: false,
+    navigationBarSelectedLabelSchemeColor: SchemeColor.secondary,
+    navigationBarUnselectedLabelSchemeColor: SchemeColor.primaryContainer,
+    navigationBarSelectedIconSchemeColor: SchemeColor.secondary,
+    navigationBarUnselectedIconSchemeColor: SchemeColor.primaryContainer,
+    navigationBarIndicatorSchemeColor: SchemeColor.secondary,
+    navigationBarBackgroundSchemeColor: SchemeColor.primary,
+    navigationBarHeight: 62.0,
+    navigationRailSelectedLabelSchemeColor: SchemeColor.secondary,
+    navigationRailUnselectedLabelSchemeColor: SchemeColor.primaryContainer,
+    navigationRailSelectedIconSchemeColor: SchemeColor.secondary,
+    navigationRailUnselectedIconSchemeColor: SchemeColor.primaryContainer,
+    navigationRailIndicatorSchemeColor: SchemeColor.secondary,
+    navigationRailBackgroundSchemeColor: SchemeColor.primary,
+    navigationRailLabelType: NavigationRailLabelType.none,
+  ),
+  useMaterial3ErrorColors: true,
+  visualDensity: FlexColorScheme.comfortablePlatformDensity,
+  useMaterial3: true,
+  // To use the playground font, add GoogleFonts package and uncomment
+  // fontFamily: GoogleFonts.notoSans().fontFamily,
+);

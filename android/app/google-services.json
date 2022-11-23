@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "427972467570",
+    "firebase_url": "https://pensol-scan-master.firebaseio.com",
+    "project_id": "pensol-scan-master",
+    "storage_bucket": "pensol-scan-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427972467570:android:d614d3e11289d9c9fa1beb",
+        "android_client_info": {
+          "package_name": "com.webosphere.pensolscanmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427972467570-kj6jg3jj2gnt18ne19h1il995cklasn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webosphere.pensolscanmaster",
+            "certificate_hash": "2c054b0c40a167d8ef08fcb284f762d089e18e08"
+          }
+        },
+        {
+          "client_id": "427972467570-n9mld94960q7a1ec0l9duhsbf5ako80p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU20cQ_Tg2KeA85-TdFzKEwsTL6v1AeG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427972467570-n9mld94960q7a1ec0l9duhsbf5ako80p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

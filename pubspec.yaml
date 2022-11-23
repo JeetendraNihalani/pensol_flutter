@@ -1,0 +1,99 @@
+name: pensol
+description: Pensol scan master
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.1
+  connectivity_plus: ^2.3.4
+  cupertino_icons: ^1.0.5
+  device_info_plus: ^3.2.4
+  dio: ^4.0.6
+  feature_folder_cli: ^0.0.4
+  flex_color_scheme: ^5.0.1
+  flutter:
+    sdk: flutter
+  flutter_vibrate: ^1.3.0
+  get_it: ^7.2.0
+  im_stepper: ^1.0.1+1
+  image_picker: ^0.8.5+3
+  intl: ^0.17.0
+  introduction_screen: ^3.0.2
+  liquid_progress_indicator: ^0.4.0
+  path: ^1.8.1
+  flutter_flavorizr: ^2.0.0
+  path_provider: ^2.0.11
+  permission_handler: ^9.2.0
+  pin_code_text_field: ^1.8.0
+  pretty_dio_logger: ^1.1.1
+  provider: ^6.0.3
+  qr_code_scanner: ^1.0.0
+  shared_preferences: ^2.0.15
+  lottie: ^1.3.3
+  # firebase
+  firebase_auth: ^3.11.1
+  firebase_core: ^1.24.0
+  firebase_messaging: ^11.4.1
+  #text size resize by no of lines
+  auto_size_text: ^3.0.0
+
+dependency_overrides:
+  image_picker_android: 0.8.4+13
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/lottie/
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+flavorizr:
+  flavors:
+    dev:
+      app:
+        name: "Pensol DEV"
+      android:
+        applicationId: "com.pensol.dev"
+      ios:
+        bundleId: "com.pensol.dev"
+
+    stag:
+      app:
+        name: "Pensol STAG"
+      android:
+        applicationId: "com.pensol.stag"
+      ios:
+        bundleId: "com.pensol.stag"
+
+    prod:
+      app:
+        name: "Pensol"
+      android:
+        applicationId: "com.webosphere.pensolscanmaster"
+      ios:
+        bundleId: "com.webosphere.pensolscanmaster"
